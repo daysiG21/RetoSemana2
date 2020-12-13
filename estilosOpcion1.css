@@ -1,0 +1,13 @@
+div{
+    text-align:center;
+}
+#btnEnviar{
+    background-color: #fb3bb7;
+    border:none;
+    color:#ffffff;   
+    border-radius:4px; 
+}
+input{
+    margin: 7px;
+    padding: 10px;;
+}

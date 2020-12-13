@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html Lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <link href="./estiloOpcion3.css" rel="stylesheet" rel="text/css">
+        <title>Opción 3</title>
+    </head>
+    <body>
+        <header> 
+            <h3>Contact Form</h1>
+        </header>
+        <main>
+            <section>
+                <form>                   
+                    <label for="firsName">First Name</label>
+                    <div>
+                        <input type="text" placeholder="John" id="firsName" minlength="6" required>
+                    </div>                   <label for="lastName">Last Name</label>
+                   <div>
+                        <input type="text" placeholder="Doe" id="lastName" minlength="6" required>
+                   </div>
+                   <label for="mail">Email</label>
+                   <div>                    
+                        <input type="email" placeholder="you@domain.com" id="mail" required>
+                   </div>
+                   <label for="mensaje">Message</label>  
+                   <div>                                 
+                        <textarea id="mensaje" placeholder="Enter your message here..." required pattern="[A-Z a-z]{20,140}" rows="5" ></textarea>
+                   </div>                   
+                    <div>
+                        <input type="submit" value="Submit" id="enviar">                         
+                    </div>
+                </form>
+                
+            </section>
+            
+        </main>
+    </body>
+</html>
